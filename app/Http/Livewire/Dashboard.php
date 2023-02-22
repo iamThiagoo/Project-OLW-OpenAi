@@ -9,7 +9,7 @@ use OpenAI\Laravel\Facades\OpenAI;
 class Dashboard extends Component
 {
 
-    public string|array $config;
+    public $config;
     public array  $dataset;
     public string $question;
     
